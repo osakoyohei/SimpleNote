@@ -14,6 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
@@ -90,7 +91,7 @@
         　　</div>
             <div class="col-md-4 p-0">
               <div class="card h-100">
-                <div class="card-header d-flex">メモ一覧 <a class='ml-auto' href='/create'>追加</a></div>
+                <div class="card-header d-flex">メモ一覧 <a class='ml-auto' href='/create'><i class="fas fa-plus-circle"></i></a></div>
                 <div class="card-body p-2">
         @foreach($memos as $memo)
                 <a href="/edit/{{ $memo['id'] }}">{{ $memo['content'] }}</a>
