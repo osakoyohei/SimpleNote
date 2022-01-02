@@ -15,14 +15,17 @@ class TagSeeder extends Seeder
     {
         DB::table('tags')->insert([
             [
+                'id' => '1',
                 'name' => 'tag1',
                 'user_id' => 1,
             ],
             [
+                'id' => '2',
                 'name' => 'tag2',
                 'user_id' => 1,
             ],
             [
+                'id' => '3',
                 'name' => 'tag3',
                 'user_id' => 1,
             ],
